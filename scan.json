@@ -1,0 +1,7 @@
+[
+    "azure-keyvault",
+    "@azure/storage-blob",
+    "@azure/storage-queue",
+    "@azure/storage-file",
+    "azure-storage"
+]

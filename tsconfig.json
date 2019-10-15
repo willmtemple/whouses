@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "lib": ["es2015"],
+    "types": ["node"],
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+        "npm-api": ["./npm-api"]
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+      "index.ts"
+  ],
+  "exclude": [
+      "node_modules"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "whouses",
+  "version": "0.1.0-dev",
+  "description": "",
+  "scripts": {
+    "start": "ts-node -T --project tsconfig.json index.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.13",
+    "@types/node": "^12.7.12",
+    "@types/node-fetch": "^2.5.2",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "api-npm": "^1.0.0",
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0"
+  }
+}
